@@ -133,6 +133,6 @@ io.on("connection", (socket) => {
 // The server connects and listens to the specified port (5000 in our case)
 const port = process.env.PORT || PORT;
 
-server.listen(port, "198.199.84.228", () => {
+server.listen(port, () => {
   console.log(`Server running on port ${port}`);
 });
